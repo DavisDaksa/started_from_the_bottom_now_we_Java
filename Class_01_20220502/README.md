@@ -1,6 +1,6 @@
 # 1. Nodarbība
 # Ievads kursos
-*Mēģinājums* **kodēt**
+*elektroniskā* **klade**
 ## Nodarbības tēmas
 Paragrāfs 1  
 Paragrāfs 2
