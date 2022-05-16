@@ -2,14 +2,15 @@
 
 *uzdevumi*
 
-Vārda iniciāļi - D&D
+Vārda iniciāļi - 
+>D&D
 
-Binārā 100 01100100 100 01100100
+Binārā 01000100
 
-Decimālā 141
+Decimālā 68
 
-Heksadecimālā 13 1101
+Heksadecimālā 44
 
-Oktālā 15
+Oktālā 104
 
 RBG(19,17,1)
