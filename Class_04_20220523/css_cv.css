@@ -1,0 +1,31 @@
+html{
+    margin: 200px;px;
+}
+body {
+    background-color: rgb(215, 238, 217);
+  }
+  
+  h1 {
+    
+    text-align: end;
+  }
+h2 {
+ text-align: left;
+}
+  img {
+      height: 200px;
+      float: inherit;
+  }
+  table {
+      width:75%;
+   float:right;
+ 
+  }
+  ol{
+      list-style-type: upper-roman;
+  }
+
+  div.hobbies{
+      position: relative;
+      right:
+  }
