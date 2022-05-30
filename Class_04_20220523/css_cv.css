@@ -6,11 +6,12 @@ body {
   }
   
   h1 {
-    
+    text-decoration: overline;
     text-align: end;
   }
 h2 {
  text-align: left;
+ text-decoration: underline overline;
 }
   img {
       height: 200px;
@@ -27,5 +28,9 @@ h2 {
 
   div.hobbies{
       position: relative;
-      right:
+      right: 300px;
+  }
+  h4{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    
   }
