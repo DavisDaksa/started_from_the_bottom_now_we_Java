@@ -1,0 +1,1 @@
+Name, Surname, e-mail (verification @), password (hidden), date, submit button
