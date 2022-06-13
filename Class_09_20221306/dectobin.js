@@ -1,4 +1,4 @@
-var x = 60;
+ var x = 60;
 document.getElementById("dec").innerHTML = X;
 
 /* >> un & interesējošo bitu novietot 0.pozīcijā un ar ((x>>?) &1)
@@ -29,3 +29,4 @@ x>> 0 -> 60(dec) atbilst 0011 1100(bin)
 console.log("1.bita attēlošana(pēc nobīdes pa 0 bitiem pa labi un 'reizināšanas' ar 1)+ zero_th_bit);
  bit_sequence = zero_th_bit + bit_sequence;
  console.log(bit_sequence)   
+ 
