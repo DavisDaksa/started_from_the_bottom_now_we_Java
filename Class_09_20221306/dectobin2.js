@@ -1,4 +1,4 @@
-var x = 60;
+var x =44;
 document.getElementById("dec").innerHTML = x;
 
 /*
@@ -26,9 +26,55 @@ zero_th_bit = (x >> 1) & 1;
                    0000 0001
                    0000 0000(bin) -> 0(dec)
 */
-console.log("1. bita attēlošana (pēc nobīdes pa 1 bitu pa labi un 'reizināšanas' ar 1): "+zero_th_bit);
+
+
+
+console.log("2. bita attēlošana (pēc nobīdes pa 2 bitiem pa labi un 'reizināšanas' ar 1): "+zero_th_bit);
 bit_sequence = zero_th_bit + bit_sequence;
-console.log("0. un 1. bits: " + bit_sequence);
+console.log("0. un 1. un 2. bits: " + bit_sequence);
+
+zero_th_bit = (x >> 2) & 1;
+
+
+console.log("2. bita attēlošana (pēc nobīdes pa 3 bitiem pa labi un 'reizināšanas' ar 1): "+zero_th_bit);
+bit_sequence = zero_th_bit + bit_sequence;
+console.log("0. un 1. un 2. un 3. bits: " + bit_sequence);
+
+zero_th_bit = (x >> 3) & 1;
+
+console.log("2. bita attēlošana (pēc nobīdes pa 4 bitiem pa labi un 'reizināšanas' ar 1): "+zero_th_bit);
+bit_sequence = zero_th_bit + bit_sequence;
+console.log("0. un 1. un 2. un 3. un 4. bits: " + bit_sequence);
+
+
+zero_th_bit = (x >> 4) & 1;
+
+console.log("2. bita attēlošana (pēc nobīdes pa 4 bitiem pa labi un 'reizināšanas' ar 1): "+zero_th_bit);
+bit_sequence = zero_th_bit + bit_sequence;
+console.log("0. un 1. un 2. un 3. un 4. un 5. bits: " + bit_sequence);
+
+
+zero_th_bit = (x >> 5) & 1;
+
+console.log("2. bita attēlošana (pēc nobīdes pa 4 bitiem pa labi un 'reizināšanas' ar 1): "+zero_th_bit);
+bit_sequence = zero_th_bit + bit_sequence;
+console.log("0. un 1. un 2. un 3. un 4. un 5. un 6. bits: " + bit_sequence);
+
+
+zero_th_bit = (x >> 6) & 1;
+
+console.log("2. bita attēlošana (pēc nobīdes pa 4 bitiem pa labi un 'reizināšanas' ar 1): "+zero_th_bit);
+bit_sequence = zero_th_bit + bit_sequence;
+console.log("0. un 1. un 2. un 3. un 4. un 5. un 6. un 7. bits: " + bit_sequence);
+
+
+zero_th_bit = (x >> 7) & 1;
+
+console.log("2. bita attēlošana (pēc nobīdes pa 4 bitiem pa labi un 'reizināšanas' ar 1): "+zero_th_bit);
+bit_sequence = zero_th_bit + bit_sequence;
+console.log("0. un 1. un 2. un 3. un 4. un 5. un 6. un 7. un 8. bits: " + bit_sequence);
+
+
 
 /*
 ......... Jūsu algoritms dec skaitļa pārveidošanai par bināro skaitli
@@ -37,4 +83,6 @@ console.log("0. un 1. bits: " + bit_sequence);
 */
 // sākumā var atrast un pielietot standarta JS funkciju, kas pārveido dec to bin
 // if, for utt. pagaidām izmantot nedrīkst
-document.getElementById("bin").innerHTML = bit_sequence;
+document.getElementById("bin_peec_algoritma").innerHTML = bit_sequence;
+
+document.getElementById("bin_peec_standarta_funkcijas").innerHTML = Number(x).toString(2);
