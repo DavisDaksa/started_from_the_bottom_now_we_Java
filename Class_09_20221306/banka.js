@@ -12,4 +12,6 @@ Ja Jūs ieguldīsiet to mūsu banka uz vienu 4 gadu, tad pēc gada kā % Jūs sa
 Ja Jūs ieguldīsiet to mūsu banka uz vienu 5 gadu, tad pēc gada kā % Jūs saņemsiet ... EUR
 */
 
-var = "Pēteris Kalniņš"
+document.getElementById("vardsUzvards").innerHTML = 'Pēteris Kalniņš';
+var vardsUzvards= "Pēteris Kalniņš";
+
